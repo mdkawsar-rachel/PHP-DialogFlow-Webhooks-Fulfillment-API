@@ -7,7 +7,7 @@ include('../src/Webhook.php');
 
 
 // Initialize Webhook: Listen for incoming request
-$wh = new Webhook('test-project-id');
+$wh = new Webhook('openai-tdpm');
 
 // Retrieve variables
 $intent = $wh->get_intent();
